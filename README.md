@@ -53,7 +53,6 @@
 
 ![Snake animation](https://github.com/liberti1991/liberti1991/blob/output/github-contribution-grid-snake.svg)
 
-##
 
 ## 🗽 Contribuições
 <a href="https://github.com/liberti1991/github-readme-activity-graph"><img alt="Subham Raoniar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=liberti1991&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
