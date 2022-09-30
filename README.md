@@ -1,22 +1,12 @@
-### Hi there 👋
 
-<!--
-**liberti1991/liberti1991** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="left"> Hello, My name is Rodrigo Liberti 🎯</h1>
 
-Here are some ideas to get you started:
+<ul>
+  <li>💰 Atualmente trabalho como desenvolvedor Front-end.</li>
+    <li>💰 Atualmente trabalho como desenvolvedor Front-end.</li>
+</ul>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<h1 align="left"> Hello, My name is Rodrigo Liberti 📌</h1>
-
-###
+##
 
 <p>Trabalho como desenvolvedor Front-End.</p>
 
@@ -56,8 +46,9 @@ Here are some ideas to get you started:
 
 ###
 
-<br clear="both">
-#OLA
+
+
+
 
 ![Snake animation](https://github.com/liberti1991/liberti1991/blob/output/github-contribution-grid-snake.svg)
 
@@ -68,3 +59,4 @@ Here are some ideas to get you started:
 </div>
 
 ###
+<a href="https://github.com/liberti1991/github-readme-activity-graph%22%3E<img alt="Subham Raoniar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=liberti1991&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
