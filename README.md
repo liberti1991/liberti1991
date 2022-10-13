@@ -1,5 +1,9 @@
 
 <h1 align="left">Olá, meu nome é Rodrigo Liberti 🎯</h1>
+<p>Desenvolvedor Front-End trabalho com React Js, atualmente estudando Laravel para me tornar um desenvolvedor Fullstack.</p>
+<p>Experiência como desenvolvedor React Js 1+ Trabalhei com portais web aonde realizei um clone do Trello. </p>
+<p>Reconhecido por colegas como um profissional com um grande potencial, dedicação e com entregas de qualidade e pontuais, sempre disposto a ajudar os colegas e em constante busca por conhecimento.</p>
+
 
 <div>
 
