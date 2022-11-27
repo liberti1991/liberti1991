@@ -1,5 +1,5 @@
 
-<h1 align="left">Olá, meu nome é Rodrigo Liberti 🎯</h1>
+<h1 align="left">Olá, meu nome é Rodrigo Liberti.🎯</h1>
 
 <div>
 
