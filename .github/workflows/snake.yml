@@ -1,25 +1,30 @@
-name: Generate DatasAdd commentMore actions
+name: Generate Snake Animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
-    name: Jobs to update datas
+  generate:
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
+      - uses: actions/checkout@v3
+        
+      - name: Generate Snake
+        uses: Platane/snk@v2
         id: snake-gif
         with:
           github_user_name: liberti1991
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - uses: EndBug/add-and-commit@v9
         with:
-          target_branch: output
-          build_dir: dist
-        env:Add commentMore actions
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          add: dist/*.svg
+          message: 'Update snake animation'
