@@ -1,30 +1,46 @@
-name: Update Snake Animation
+# Nome da GitHub Action
+name: Generate Contribution Snake
 
+# Controles de quando a Action será executada
 on:
+  # Executa a cada 12 horas
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
+  # Permite executar manualmente na aba Actions
   workflow_dispatch:
+  # Executa também quando há um push para a branch main
   push:
     branches:
       - main
 
+# Define os jobs que a Action executará
 jobs:
-  generate-snake:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      # 1. Faz o checkout do seu repositório
+      - uses: actions/checkout@v3
 
-      - name: Generate Snake
-        uses: Platane/snk@v2
+      # 2. Gera o gráfico de contribuições e a animação da cobrinha
+      - uses: Platane/snk@v3
         with:
-          github_user_name: liberti1991
-          svg_out_path: snake.svg
-          gif_out_path: false  # Desativa a geração de GIF
+          # O seu nome de usuário do GitHub
+          github_user_name: ${{ github.repository_owner }}
 
+          # Lista de arquivos a serem gerados
+          outputs: |
+            dist/contribution-grid.svg
+            dist/snake.svg?palette=github-dark
+
+      # 3. Faz o commit dos arquivos gerados para o seu repositório
       - name: Commit and push
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: snake.svg
-          message: 'Update snake animation'
-          branch: main
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update contribution snake and grid"
+            git push
+          fi
