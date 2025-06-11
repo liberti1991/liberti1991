@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Update Snake Animation
 
 on:
   schedule:
@@ -9,22 +9,24 @@ on:
       - main
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Generate Snake
-        uses: Platane/snk@v2
-        id: snake-gif
+        uses: Platane/snk@master
         with:
           github_user_name: liberti1991
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          gif: false
+          svg: true
+          output: snake.svg
 
-      - uses: EndBug/add-and-commit@v9
-        with:
-          branch: main
-          add: dist/*.svg
-          message: 'Update snake animation'
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add snake.svg
+          git commit -m "Update snake animation"
+          git push
