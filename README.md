@@ -1,4 +1,3 @@
-
 <h1 align="left">Olá, meu nome é Rodrigo Liberti🎯</h1>
 
 <div>
@@ -69,3 +68,4 @@
 <!--   </a> -->
 
 
+ vamos recriar isso  vamos tirar o php colocar react native flutter como principal scss e vue 3
