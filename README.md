@@ -58,5 +58,5 @@
 </p>
 
 <!-- <a href="https://github.com/liberti1991/github-readme-activity-graph"> -->
-<img alt="Gráfico de Atividade de Rodrigo Liberti" src="https://github-profile-activity-generator.vercel.app/graph?username=liberti1991&theme=github-dark&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+<img alt="Gráfico de Atividade de Rodrigo Liberti" src="https://github-readme-activity-graph.vercel.app/graph?username=liberti1991&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true&area=true" />
 <!--   </a> -->
