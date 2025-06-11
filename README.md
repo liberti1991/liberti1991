@@ -52,10 +52,16 @@
 ## 🗽 Contribuições
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/liberti1991?color=dark" alt="Gráfico de Contribuições de Rodrigo Liberti no GitHub" />
+  <img src="https://raw.githubusercontent.com/liberti1991/liberti1991/main/dist/contribution-grid.svg" alt="Gráfico de Contribuições de Rodrigo Liberti no GitHub" />
 </p>
 
 <p align="center">
   <img title="🔥 Estatísticas de Contribuição" alt="Estatísticas de Contribuição de Rodrigo Liberti" src="https://streak-stats.demolab.com/?user=liberti1991&theme=chartreuse-dark&hide_border=true&background=0D1117&border=5BCDEC"/>
   <img alt="Gráfico de Atividade de Rodrigo Liberti" src="https://github-readme-activity-graph.vercel.app/graph?username=liberti1991&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true&area=true" />
 </p>
+
+##
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/liberti1991/liberti1991/main/dist/snake.svg" alt="Animação Snake das Contribuições" />
+</div>
