@@ -59,11 +59,3 @@
   <img title="🔥 Estatísticas de Contribuição" alt="Estatísticas de Contribuição de Rodrigo Liberti" src="https://streak-stats.demolab.com/?user=liberti1991&theme=chartreuse-dark&hide_border=true&background=0D1117&border=5BCDEC"/>
   <img alt="Gráfico de Atividade de Rodrigo Liberti" src="https://github-readme-activity-graph.vercel.app/graph?username=liberti1991&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true&area=true" />
 </p>
-
-## 🗽 Contribuições
-
-<p align="center">
-  <img title="🔥 Estatísticas de Contribuição" alt="Estatísticas de Contribuição de Rodrigo Liberti" src="https://streak-stats.demolab.com/?user=liberti1991&theme=chartreuse-dark&hide_border=true&background=0D1117&border=5BCDEC"/>
-</p>
-
-<img alt="Gráfico de Atividade de Rodrigo Liberti" src="https://github-readme-activity-graph.vercel.app/graph?username=liberti1991&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true&area=true" />
