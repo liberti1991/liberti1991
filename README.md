@@ -47,7 +47,7 @@
 
 ##
 
-![Snake animation](https://raw.githubusercontent.com/liberti1991/liberti1991/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/liberti1991/liberti1991/main/snake.svg)
 
 
 ## 🗽 Contribuições
