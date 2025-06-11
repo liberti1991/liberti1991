@@ -52,7 +52,9 @@
 ## 🗽 Contribuições
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/liberti1991/liberti1991/main/dist/contribution-grid.svg" alt="Gráfico de Contribuições de Rodrigo Liberti no GitHub" />
+
+  <img src="https://ghchart.rshah.org/liberti1991?color=dark" alt="Gráfico de Contribuições de Rodrigo Liberti no GitHub" />
+
 </p>
 
 <p align="center">
