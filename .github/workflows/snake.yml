@@ -9,24 +9,22 @@ on:
       - main
 
 jobs:
-  build:
+  generate-snake:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Generate Snake
-        uses: Platane/snk@master
+        uses: Platane/snk@v2
         with:
           github_user_name: liberti1991
-          gif: false
-          svg: true
-          output: snake.svg
+          svg_out_path: snake.svg
+          gif_out_path: false  # Desativa a geração de GIF
 
-      - name: Commit and Push
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add snake.svg
-          git commit -m "Update snake animation"
-          git push
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: snake.svg
+          message: 'Update snake animation'
+          branch: main
