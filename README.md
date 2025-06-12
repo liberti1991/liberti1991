@@ -45,11 +45,11 @@
   </a>
 </div>
 
-##
-
-![Snake animation](https://raw.githubusercontent.com/liberti1991/liberti1991/main/dist/snake.svg)
-
 ## 🗽 Contribuições
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/liberti1991/liberti1991/main/dist/snake.svg" alt="Animação Snake das Contribuições" />
+</div>
 
 <p align="center">
   <img title="🔥 Estatísticas de Contribuição" alt="Estatísticas de Contribuição de Rodrigo Liberti" src="https://streak-stats.demolab.com/?user=liberti1991&theme=chartreuse-dark&hide_border=true&background=0D1117&border=5BCDEC"/>
@@ -58,6 +58,4 @@
 
 ##
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/liberti1991/liberti1991/main/dist/snake.svg" alt="Animação Snake das Contribuições" />
-</div>
+
